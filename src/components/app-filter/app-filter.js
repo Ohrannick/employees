@@ -28,33 +28,6 @@ const AppFilter = (props) => {
   });
 
   return <div className='btn-group'>{elements}</div>;
-
-  // viewAll = () => {
-  //   this.setState(({ isActiveAll }) => ({
-  //     isActiveAll: isActiveAll ? isActiveAll : !isActiveAll,
-  //     isActiveInc: false,
-  //     isActiveSal: false,
-  //   }));
-  //   this.props.viewAll();
-  // };
-
-  // isIncrease = () => {
-  //   this.setState(({ isActiveInc }) => ({
-  //     isActiveAll: false,
-  //     isActiveInc: isActiveInc ? isActiveInc : !isActiveInc,
-  //     isActiveSal: false,
-  //   }));
-  //   this.props.searchIncrease();
-  // };
-
-  // isSalary = () => {
-  //   this.setState(({ isActiveSal }) => ({
-  //     isActiveAll: false,
-  //     isActiveInc: false,
-  //     isActiveSal: isActiveSal ? isActiveSal : !isActiveSal,
-  //   }));
-  //   this.props.searchSalary();
-  // };
 };
 
 export default AppFilter;
