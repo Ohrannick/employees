@@ -19,6 +19,11 @@ class EmployeesAddForm extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
     console.log('Отправлена форма.');
+    this.props.onAddUser(this.state.name, this.state.salary);
+    this.setState({
+      name: '',
+      salary: '',
+    });
   };
 
   render() {
