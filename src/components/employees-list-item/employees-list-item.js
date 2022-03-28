@@ -29,7 +29,7 @@ const EmployeesListItem = (props) => {
       <input
         type='text'
         className='list-group-item-input'
-        defaultValue={salary <= 0 ? '0 $' : parseInt(salary) + ' $'}
+        value={salary <= 0 ? '0 $' : parseInt(salary) + ' $'}
         onChange={onChangeSalary}
       />
       <div className='d-flex justify-content-center align-items-center'>
